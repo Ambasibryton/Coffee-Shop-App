@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter M-Pesa PIN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00A651" />
+
+    <TextView
+        android:id="@+id/tvPinAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="KSh 0"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter 4-digit PIN"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnConfirmPin"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="Confirm Payment"
+        android:backgroundTint="#00A651"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnCancelPin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"
+        android:backgroundTint="#E0E0E0"
+        android:textColor="#333333" />
+</LinearLayout>

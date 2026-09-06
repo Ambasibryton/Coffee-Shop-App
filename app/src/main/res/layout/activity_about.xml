@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee Cafe"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Welcome to Coffee Cafe — your neighborhood spot for quality coffee and delicious Kenyan bites.\n\nWe serve freshly brewed coffee made from carefully selected beans, paired with classic local favorites like Chapati, Mandazi, Githeri and Bread.\n\nWhether you're grabbing a quick espresso or settling in for a full breakfast, we're here to make your day better — one cup at a time."
+            android:textSize="15sp"
+            android:textColor="#444444" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:padding="16dp"
+            android:background="#E8F5E9"
+            android:lineSpacingExtra="6dp"
+            android:text="📍  Nairobi, Kenya\n📞  +254 700 000 000\n✉️  hello@coffeecafe.co.ke\n🕒  Mon – Sun: 7:00 AM – 9:00 PM"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
